@@ -40,7 +40,7 @@ include("conection.php");
         <span class="icon-close"><i class="ri-close-line"></i></span>
         <div class="formbox-login">
             <h2>Login</h2>
-            <form action="#">
+            <form method="post" action="homepage.php">
                 <div class="input-box">
                     <span class="icon"><i class="ri-mail-fill"></i></span>
                     <input type="email" required>
@@ -55,7 +55,7 @@ include("conection.php");
                     <label ><input type="checkbox">Remember me</label>
                     <a href="#">forget password?</a>
                 </div>
-                <button type="submit" class="btn">Login</button>
+                <button type="submit" value="login" class="btn">Login</button>
                 <div class="login-registration">
                     <p>Don't have an account?<a href="#" class="register-link">Register</a></p>
                 </div>
@@ -132,3 +132,21 @@ if(isset($_POST['submit'])){
     }
 }
 ?>
+
+<!-- for log in  -->
+
+<?php
+if(isset($_POST["login"])){
+    $email=$_POST['email'];
+    $pass=$_POST['password'];
+    $sql2="SELECT * FROM data WHERE uname='$email' AND pass='$pass'";
+    $put=mysqli_query($conn,$sql2);
+    if(mysqli_num_rows($put)> 0){
+        echo "<script>alert('Loged in sucessfully')</script>";
+    }
+    else{
+        echo "<script>alert('Loged in failed')</script>";
+    }
+}
+?>
+
