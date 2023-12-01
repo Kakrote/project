@@ -24,7 +24,7 @@ include("conection.php");
         <nav class="navigation">
             <!-- <a href="home page.html">Home</a> -->
             <!-- <a href="#">About</a> -->
-            <a href="servies.php">Services</a>
+            <!-- <a href="servies.php">Services</a> -->
             <!-- <a href="#">Contact</a> -->
             <button class="buttonlogin-popup">Login</button>
         </nav>
