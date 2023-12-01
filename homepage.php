@@ -10,6 +10,8 @@
 <body>
     <header>
             <a href="landing.php" class="back" style="font-size: 25px;"><i class="ri-arrow-left-line"></i></a>
+            <!-- <a href="servies.php">Services</a> -->
+            <button class="pro-btn b" onclick="location.href='servies.php'"">Servies</button>
             <button class="pro-btn b0">Profile</button>
     </header>
     <div class="wrapper2">

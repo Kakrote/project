@@ -22,10 +22,10 @@ include("conection.php");
             <img src="logo-removebg-preview.png" alt="Logo">
         </div>
         <nav class="navigation">
-            <!-- <a href="home page.html">Home</a>
-            <a href="#">About</a>
-            <a href="servies.html">Services</a>
-            <a href="#">Contact</a> -->
+            <!-- <a href="home page.html">Home</a> -->
+            <!-- <a href="#">About</a> -->
+            <a href="servies.php">Services</a>
+            <!-- <a href="#">Contact</a> -->
             <button class="buttonlogin-popup">Login</button>
         </nav>
     </header>
