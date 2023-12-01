@@ -5,7 +5,7 @@ $password = "";
 $dbname = "donodata";
 $conn = new mysqli($servername, $username, $password, $dbname);
 if(!$conn){
-die("error dected". mysqli_error($conn));
+die("error detected". mysqli_error($conn));
 }
 // echo("connected thank god");
 ?>

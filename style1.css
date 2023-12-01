@@ -87,7 +87,7 @@ header{
     cursor: pointer;
     font-size: 1.1em;
     font-weight: 500;
-    margin-left: 40px;
+    margin-left: 35px;
     color: #fff;
 }
 .navigation .buttonlogin-popup:hover{
@@ -173,7 +173,7 @@ header{
     position: absolute;
     top: 50%;
     left: 5px;
-    transform: translate(-50%);
+    transform: translate(-5%);
     font-size: 1em;
     color: #162916;
     font-weight: 600;
